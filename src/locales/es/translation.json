@@ -1,0 +1,89 @@
+{
+  "common": {
+    "back": "Volver",
+    "next": "Siguiente",
+    "add": "Añadir",
+    "delete": "Eliminar",
+    "sort": "Ordenar",
+    "finalAdjustment": "Ajuste final"
+  },
+  "sidebar": {
+    "language": "Idioma"
+  },
+  "steps": {
+    "profile": "Perfil",
+    "skills": "Habilidades",
+    "experiences": "Experiencia",
+    "languages": "Idiomas",
+    "educations": "Educación",
+    "certificates": "Certificados",
+    "settings": "Ajustes"
+  },
+  "profile": {
+    "title": "Comienza con la información personal",
+    "description": "Incluye solo información relevante y profesional. Un buen resumen personal debe destacar tus fortalezas y objetivos profesionales.",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "jobTitle": "Nombre del puesto",
+    "profilePicture": "Foto de perfil",
+    "chooseNewPhoto": "Elige una nueva foto",
+    "dragAndDrop": "o arrastra y suelta aquí",
+    "email": "Email",
+    "phone": "Teléfono",
+    "website": "Página web",
+    "personalDescription": "Descripcción personal"
+  },
+  "skills": {
+    "title": "Destaca tus habilidades más relevantes",
+    "description": "Prioriza las habilidades específicas para el puesto al que aplicas. Incluye tanto habilidades técnicas como competencias transversales.",
+    "writeSkill": "Escribe la competencia que quieras",
+    "added": "Añadidas:"
+  },
+  "experience": {
+    "title": "Usa un orden cronológico inverso",
+    "description": "Comienza con tu posición actual, luego enumera las anteriores. Destaca logros concretos y cuantificables en cada experiencia laboral.",
+    "sortRecent": "Ordenar desde lo más reciente",
+    "addExperience": "Añadir otra experiencia"
+  },
+  "languages": {
+    "title": "Destaca tus competencias lingüísticas",
+    "description": "Especifica tu nivel de dominio en cada idioma. Ordena los idiomas según su relevancia para el puesto al que aplicas.",
+    "sortByLevel": "Ordenar por nivel",
+    "languageName": "Nombre del idioma",
+    "level": "Nivel",
+    "addLanguage": "Añadir otro idioma"
+  },
+  "education": {
+    "title": "Usa un orden cronológico inverso",
+    "description": "Comienza con tu formación más reciente. Incluye solo la educación relevante para el puesto y destaca especializaciones o menciones importantes.",
+    "sortRecent": "Ordenar desde lo más reciente",
+    "schoolName": "Nombre del centro",
+    "startDate": "Fecha de inicio",
+    "endDate": "Fecha de finalización",
+    "addEducation": "Añadir otra educación"
+  },
+  "certificates": {
+    "title": "Usa un orden cronológico inverso",
+    "description": "Incluye certificaciones relevantes para el puesto. Prioriza las más recientes y las que demuestren habilidades específicas para el rol.",
+    "sortByDate": "Ordenar por fecha de expedición",
+    "certificateName": "Nombre del certificado",
+    "issueDate": "Fecha de expedición",
+    "addCertificate": "Añadir otro certificado"
+  },
+  "settings": {
+    "title": "Ajustes finales a tu CV",
+    "description": "Exporta tu CV o guarda tus ajustes para continuar editando más tarde.",
+    "importSection": "Importa tu configuración",
+    "importDescription": "Importa toda la configuración creada anteriormente en tu perfil y continua la edición.",
+    "importButton": "Importar",
+    "exportSection": "Exporta tu configuración",
+    "exportDescription": "Exporta toda la configuración creada para poder continuar editando el Curriculum Vitae posteriormente.",
+    "exportButton": "Exportar",
+    "pdfSection": "Extraer en formato PDF",
+    "pdfDescription": "Exporta tu curriculum en formato PDF con texto seleccionable y colores.",
+    "savePDF": "Guardar PDF",
+    "print": "Imprimir",
+    "pdfSuccess": "PDF exportado con éxito",
+    "pdfError": "Error al generar el PDF"
+  }
+}

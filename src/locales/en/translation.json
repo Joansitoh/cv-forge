@@ -1,0 +1,89 @@
+{
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "add": "Add",
+    "delete": "Delete",
+    "sort": "Sort",
+    "finalAdjustment": "Final Adjustment"
+  },
+  "sidebar": {
+    "language": "Language"
+  },
+  "steps": {
+    "profile": "Profile",
+    "skills": "Skills",
+    "experiences": "Experience",
+    "languages": "Languages",
+    "educations": "Education",
+    "certificates": "Certificates",
+    "settings": "Settings"
+  },
+  "profile": {
+    "title": "Start with personal information",
+    "description": "Include only relevant and professional information. A good personal summary should highlight your strengths and professional goals.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "jobTitle": "Job Title",
+    "profilePicture": "Profile Picture",
+    "chooseNewPhoto": "Choose a new photo",
+    "dragAndDrop": "or drag and drop here",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "personalDescription": "Personal Description"
+  },
+  "skills": {
+    "title": "Highlight your most relevant skills",
+    "description": "Prioritize specific skills for the position you're applying for. Include both technical skills and soft skills.",
+    "writeSkill": "Write the skill you want",
+    "added": "Added:"
+  },
+  "experience": {
+    "title": "Use reverse chronological order",
+    "description": "Start with your current position, then list previous ones. Highlight concrete and quantifiable achievements in each work experience.",
+    "sortRecent": "Sort from most recent",
+    "addExperience": "Add another experience"
+  },
+  "languages": {
+    "title": "Highlight your language skills",
+    "description": "Specify your proficiency level in each language. Order languages according to their relevance for the position you're applying for.",
+    "sortByLevel": "Sort by level",
+    "languageName": "Language name",
+    "level": "Level",
+    "addLanguage": "Add another language"
+  },
+  "education": {
+    "title": "Use reverse chronological order",
+    "description": "Start with your most recent education. Include only education relevant to the position and highlight important specializations or mentions.",
+    "sortRecent": "Sort from most recent",
+    "schoolName": "School name",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "addEducation": "Add another education"
+  },
+  "certificates": {
+    "title": "Use reverse chronological order",
+    "description": "Include certifications relevant to the position. Prioritize the most recent ones and those that demonstrate specific skills for the role.",
+    "sortByDate": "Sort by issue date",
+    "certificateName": "Certificate name",
+    "issueDate": "Issue date",
+    "addCertificate": "Add another certificate"
+  },
+  "settings": {
+    "title": "Final adjustments to your CV",
+    "description": "Export your CV or save your settings to continue editing later.",
+    "importSection": "Import your settings",
+    "importDescription": "Import previously created settings to your profile and continue editing.",
+    "importButton": "Import",
+    "exportSection": "Export your settings",
+    "exportDescription": "Export all settings created to continue editing the CV later.",
+    "exportButton": "Export",
+    "pdfSection": "Extract in PDF format",
+    "pdfDescription": "Export your CV in PDF format with selectable text and colors.",
+    "savePDF": "Save PDF",
+    "print": "Print",
+    "pdfSuccess": "PDF exported successfully",
+    "pdfError": "Error generating PDF"
+  }
+}
