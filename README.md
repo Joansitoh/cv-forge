@@ -32,6 +32,10 @@
 
 CV-Forge is a modern, React-based application for creating professional CVs with a user-friendly interface. The application features a step-by-step form process and real-time preview, allowing users to craft beautiful, customized CVs that can be exported as PDF documents or saved as JSON for future editing.
 
+<p align="center">
+    <img src="./preview.png" alt="CV-Forge Preview" width="80%">
+</p>
+
 ---
 
 ## 👾 Features
