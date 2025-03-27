@@ -23,7 +23,7 @@ const CertificatesForm = () => {
   return (
     <div className="flex flex-col">
       <section className="flex gap-4 items-center mb-10 bg-gray-100 p-4">
-        <div className="h-24 min-h-24 w-24 min-w-24 rounded-full">
+        <div className="h-20 min-h-20 w-20 min-w-20 rounded-full">
           <img src="person.png" alt="logo" />
         </div>
         <div className="flex flex-col text-gray-700">

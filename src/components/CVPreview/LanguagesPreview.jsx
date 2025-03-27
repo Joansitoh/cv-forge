@@ -1,4 +1,5 @@
 import { Star, StarBorder } from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
 
 const LevelStars = ({ level }) => {
   // Place 5 stars and paint them according to the level
@@ -18,6 +19,8 @@ const LevelStars = ({ level }) => {
 };
 
 const LanguagePreview = ({ languages }) => {
+  const { t } = useTranslation();
+  
   return (
     <ul className="px-6">
       {languages.map((language) => (

@@ -48,8 +48,8 @@ const ProfileForm = () => {
   return (
     <div className="flex flex-col">
       <section className="flex gap-4 items-center mb-10 bg-gray-100 p-4">
-        <div className="h-24 min-h-24 w-24 min-w-24 rounded-full">
-          <img src={"person.png"} alt="logo" />
+        <div className="h-20 min-h-20 w-20 min-w-20 rounded-full">
+          <img src="person.png" alt="logo" />
         </div>
         <div className="flex flex-col text-gray-700">
           <h1 className="font-bold text-lg">
@@ -60,7 +60,7 @@ const ProfileForm = () => {
           </h3>
         </div>
       </section>
-      <section className="flex gap-4 mb-8">
+      <section className="flex gap-4 mb-4">
         <TextField
           label={t('profile.firstName')}
           type="text"
@@ -78,7 +78,7 @@ const ProfileForm = () => {
           onChange={handleChange}
         />
       </section>
-      <section className="flex gap-4 mb-8">
+      <section className="flex gap-4 mb-4">
         <TextField
           label={t('profile.jobTitle')}
           fullWidth
@@ -118,7 +118,7 @@ const ProfileForm = () => {
           onChange={handleFileChange}
         />
       </section>
-      <section className="flex gap-4 mb-8">
+      <section className="flex gap-4 mb-4">
         <TextField
           label={t('profile.email')}
           type="email"
@@ -136,7 +136,7 @@ const ProfileForm = () => {
           onChange={handleChange}
         />
       </section>
-      <section className="flex gap-4 mb-8">
+      <section className="flex gap-4 mb-4">
         <TextField
           label={t('profile.website')}
           type="text"
@@ -146,7 +146,7 @@ const ProfileForm = () => {
           onChange={handleChange}
         />
       </section>
-      <section className="flex gap-4 mb-8">
+      <section className="flex gap-4 mb-4">
         <TextField
           label={t('profile.personalDescription')}
           multiline

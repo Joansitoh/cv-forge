@@ -1,8 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const Education = ({ education }) => {
+  const { i18n } = useTranslation();
+  
   const getFormattedDate = (dat) => {
     if (!dat) return "Non specified";
     const date = new Date(dat);
-    return date.toLocaleDateString("es-ES", {
+    return date.toLocaleDateString(i18n.language === "en" ? "en-US" : "es-ES", {
       month: "numeric",
       year: "numeric",
     });

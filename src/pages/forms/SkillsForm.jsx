@@ -20,7 +20,7 @@ const SkillsForm = () => {
     <div className="flex flex-col">
       <section className="flex gap-4 items-center mb-10 bg-gray-100 p-4">
         <div className="h-24 min-h-24 w-24 min-w-24 rounded-full">
-          <img src="person.png" alt="logo" />
+          <img src="https://i.imgur.com/aN3IK1m.png" alt="logo" />
         </div>
         <div className="flex flex-col text-gray-700">
           <h1 className="font-bold text-lg">
@@ -70,7 +70,7 @@ const SkillsForm = () => {
                         setSkills(newSkills);
                       }}
                     />
-                    <IconButton sx={{ borderRadius: "6px" }}>
+                    <IconButton sx={{ borderRadius: "6px" }} onClick={() => setSkills(skills.filter((_, i) => i !== index))}>
                       <DeleteRounded />
                     </IconButton>
                   </div>
