@@ -4,8 +4,8 @@ import LanguagePreview from "@/components/CVPreview/LanguagesPreview";
 import ProfilePreview from "@/components/CVPreview/ProfilePreview";
 import WorkExperience from "@/components/CVPreview/WorkPreview";
 import { useCVStore } from "@/store";
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const CVViewer = () => {
   const { t, i18n } = useTranslation();
@@ -100,43 +100,47 @@ const CVViewer = () => {
               </table>
             </section>
 
-            <section className="mb-6">
-              <h2 className="mb-2 pb-2 text-xl font-semibold text-cyan-700">
-                {t('steps.educations')}
-              </h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th className="max-w-12 text-left"></th>
-                    <th className="text-left"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {educations.map((education, index) => (
-                    <Education key={index} education={education} />
-                  ))}
-                </tbody>
-              </table>
-            </section>
+            {educations.length > 0 && (
+              <section className="mb-6">
+                <h2 className="mb-2 pb-2 text-xl font-semibold text-cyan-700">
+                  {t('steps.educations')}
+                </h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th className="max-w-12 text-left"></th>
+                      <th className="text-left"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {educations.map((education, index) => (
+                      <Education key={index} education={education} />
+                    ))}
+                  </tbody>
+                </table>
+              </section>
+            )}
 
-            <section className="mb-6">
-              <h2 className="mb-2 pb-2 text-xl font-semibold text-cyan-700">
-                {t('steps.certificates')}
-              </h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th className="max-w-12 text-left"></th>
-                    <th className="text-left"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {certificates.map((certificate, index) => (
-                    <Certificate key={index} certificate={certificate} />
-                  ))}
-                </tbody>
-              </table>
-            </section>
+            {certificates.length > 0 && (
+              <section className="mb-6">
+                <h2 className="mb-2 pb-2 text-xl font-semibold text-cyan-700">
+                  {t('steps.certificates')}
+                </h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th className="max-w-12 text-left"></th>
+                      <th className="text-left"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {certificates.map((certificate, index) => (
+                      <Certificate key={index} certificate={certificate} />
+                    ))}
+                  </tbody>
+                </table>
+              </section>
+            )}
           </main>
         </div>
       </div>
